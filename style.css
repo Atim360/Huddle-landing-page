@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+@media screen and (min-width: 625px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+
+/* Huddle Page */
+
+.huddlePage--title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 2.1rem;
+}
+
+.huddlePage--paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  color: hsla(0, 0%, 90%);
+  line-height: 1.4rem;
+}
+
+.huddlePage--button {
+  border: none;
+  outline: none;
+  width: 70%;
+  margin: 10px auto 0px auto;
+  padding: 13px 0px 13px 0px;
+  border-radius: 24px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(257, 40%, 49%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage--button {
+    margin: 10px 0px 0px 0px;
+    width: 50%;
+  }
+}
+
+.huddlePage--button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 95%);
+  box-shadow: 0px 0px 10px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.huddlePage--margin-b1 {
+  margin: 0px 0px 20px 0px;
+}
+
+
+/* Huddle Page Header */
+
+.huddlePage__header {
+  margin: 30px 0px 8% 0px;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__header {
+    margin: 0;
+    transform: translate3d(0, 25px, 0);
+  }
+}
+
+.huddlePage__header--logo {
+  width: 85%;
+  margin-left: 7.5%;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__header--logo {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.huddlePage__header--logo > img {
+  width: 125px;
+  height: auto;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__header--logo > img {
+    width: 200px;
+  }
+}
+
+
+/* Huddle Page Main */
+
+.huddlePage__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto 50px auto;
+  width: 85%;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__main {
+    position: relative;
+    flex-direction: row;
+    margin: 5% auto 50px auto;
+    overflow: hidden;
+    width: 90%;
+  }
+}
+
+.huddlePage__main--illustration {
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__main--illustration {
+    margin: 0px 5% 0px 0px;
+    width: 55%;
+  }
+}
+
+.huddlePage__main--illustration > img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Huddle Page Section */
+
+.huddlePage__main--section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  text-align: center;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__main--section {
+    align-self: flex-start;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    padding-top: 3%;
+    width: 45%;
+  }
+}
+
+
+/* Huddle Page Footer */
+
+.huddlePage__footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 40px 0px;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__footer {
+    justify-content: flex-end;
+    margin: 20px 0px 25px 0px;
+  }
+}
+
+
+/* Huddle Page Icons */
+
+.huddlePage__icons {
+  display: flex;
+}
+
+@media screen and (min-width: 625px) {
+  .huddlePage__icons {
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+}
+
+.huddlePage__icons--icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 8px;
+}
+
+.huddlePage__icons--icon > svg {
+  fill: hsl(0, 0%, 95%);
+}
+
+.huddlePage__icons--icon:hover {
+  border-color: hsl(300, 69%, 71%);
+}
+.huddlePage__icons--icon:hover > svg {
+  fill: hsl(300, 69%, 71%);
+}
+
+.huddlePage__icons--facebook {
+  width: 18px;
+  height: 15px;
+}
+
+.huddlePage__icons--twitter {
+  width: 14px;
+  height: 16px;
+  margin-left: 2px;
+}
+
+.huddlePage__icons--instagram {
+  width: 17px;
+  height: 17px;
+}
