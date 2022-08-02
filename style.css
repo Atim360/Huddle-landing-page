@@ -121,8 +121,7 @@ body {
   .huddlePage__main {
     position: relative;
     flex-direction: row;
-    margin: 5% auto 50px auto;
-    overflow: hidden;
+    margin: 8% auto 0px auto;
     width: 90%;
   }
 }
