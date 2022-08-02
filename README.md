@@ -21,9 +21,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Atim360/Huddle-landing-page](https://github.com/Atim360/Huddle-landing-page)
+- Live Site URL: [https://atim360.github.io/Huddle-landing-page](https://atim360.github.io/Huddle-landing-page)
 
 ## My process
 
